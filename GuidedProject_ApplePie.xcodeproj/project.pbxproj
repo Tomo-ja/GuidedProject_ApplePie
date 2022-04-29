@@ -13,6 +13,7 @@
 		E50C1B15281B588200BA072B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50C1B13281B588200BA072B /* Main.storyboard */; };
 		E50C1B17281B588300BA072B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50C1B16281B588300BA072B /* Assets.xcassets */; };
 		E50C1B1A281B588300BA072B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50C1B18281B588300BA072B /* LaunchScreen.storyboard */; };
+		E5157902281B683B00330BC2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5157901281B683B00330BC2 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E50C1B16281B588300BA072B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E50C1B19281B588300BA072B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E50C1B1B281B588300BA072B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5157901281B683B00330BC2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E50C1B0C281B588200BA072B /* GuidedProject_ApplePie */ = {
 			isa = PBXGroup;
 			children = (
+				E5157901281B683B00330BC2 /* Game.swift */,
 				E50C1B0D281B588200BA072B /* AppDelegate.swift */,
 				E50C1B0F281B588200BA072B /* SceneDelegate.swift */,
 				E50C1B11281B588200BA072B /* ViewController.swift */,
@@ -141,6 +144,7 @@
 				E50C1B12281B588200BA072B /* ViewController.swift in Sources */,
 				E50C1B0E281B588200BA072B /* AppDelegate.swift in Sources */,
 				E50C1B10281B588200BA072B /* SceneDelegate.swift in Sources */,
+				E5157902281B683B00330BC2 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +307,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -330,7 +334,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
